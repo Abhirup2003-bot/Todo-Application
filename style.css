@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: #fff;
+}
+.container {
+  text-align: center;
+  margin-top: 1rem;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+  /* border: 1px solid white; */
+}
+div label {
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 0.5rem;
+}
+#Name {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+#btn {
+  padding: 0.75rem 1.3rem;
+  border: none;
+  border-radius: 0.75rem;
+  color: green;
+  background-color: aqua;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* Dynamic Elements  */
+
+#div {
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 1rem;
+}
+
+.btn-cls {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: blue;
+}
+.deletebtn-cls {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: red;
+}
+
+.lable-cls {
+  margin-top: 0.5rem;
+}
+
+.nameElem-cls {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
