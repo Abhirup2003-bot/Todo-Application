@@ -17,7 +17,7 @@ buttonElem.addEventListener(
     paraElem.id = "paraId";
     paraElem.innerHTML = `Hello, ${obj.userName}`;
     divElem.appendChild(paraElem);
-    console.log(paraElem);
+    // console.log(paraElem);
 
     // dynamically create a edit button then append to the div
     const editbtn = document.createElement("button");
